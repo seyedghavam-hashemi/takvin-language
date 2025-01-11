@@ -1,0 +1,113 @@
+
+/*footer start*/
+
+
+.classFooter{
+  background-image:url('../img/icon/paper-art.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+background-position: center;
+/*background-color: #000;*/
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+  margin-top: 15px;
+}
+.logoClassfooter{
+  width:250px;
+  height:300px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  
+}
+
+#logoIdFooter{
+  margin:10px;
+
+}
+
+.pClassFooterT1{
+  font-size: 4vh;
+  font-weight: bolder;
+  background-color:#fff;
+  padding:0 4px;
+
+border-radius: 10px;}
+.pClassFooterT2{
+  font-size: 2.5vh;
+  font-weight: bolder;
+  background-color:#fff;
+  padding:0 4px;
+border-radius: 10px;}
+.pClassFooterT3{
+  font-size: 2vh;
+  font-weight: bolder;
+  background-color:#fff;
+  padding:0 4px;
+
+border-radius: 10px;}
+.iconText{
+  font-size: 2.5vh;
+  font-weight: bolder; 
+  margin-left: 5px;
+  color:#000;
+  background-color:#fff;
+  padding:0 6px;
+
+border-radius: 10px;}
+.iconLogo{
+  width: 55px;
+  height:55px;
+  margin:5px;
+}
+
+.iconTexttel{
+  font-size: 2.5vh;
+  font-weight: bolder; 
+  margin-left: 5px;
+  color:#000;
+  padding-top: 15px;
+  background-color:#fff;
+  padding:0 4px;
+
+border-radius: 10px;}
+#phonelogo{
+  width: 50px;
+  height:75px;
+  
+}
+#instalogo{
+  width: 55px;
+  height:55px; 
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#emaillogo{
+
+width: 55px;
+height:55px; 
+}
+
+
+.pClassFooterTE1{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items:center;
+  padding-bottom: 3px;
+ 
+}
+/*footer end*/
+
+
+
+
+@media(max-width:568px) {}

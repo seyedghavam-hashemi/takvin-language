@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>taknin-language</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/indexfooter.css" />
+    <link rel="stylesheet" href="css/sec3js.css" />
+    <link rel="stylesheet" href="css/style-flip.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/bft.css" />
+    <link rel="stylesheet" href="css/show-text-steadily.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  </head>
+  <body onload="divrandom()">
+     <!--From
+https://coolcssanimation.com/how-to-trigger-a-css-animation-on-scroll/
+
+<h1 class="image"></h1>-->
+<!--<button id="pickImageButton" class="button-fortune-parent" onclick="imageDisplay(); flip()"><img  class="button-fortune-child" src="img/button-fortune.png"></button>-->
+ 
+
+
+<section class="head-section">
+<!--Racoon Start-->
+<div class="header-changing" id="header-changing1">
+  <img  class="header-changing-img" id="racoon-1" src="img/racoon-8-1.png">
+  <img  class="header-changing-img" id="racoon-2" src="img/racoon-8-2.png">
+  <button id="pickImageButton" class="button-fortune-parent" onclick="imageDisplay1(); imageDisplay2(); imageDisplay3(); imageDisplay4(); flip1(); flip2(); flip3(); flip4(); gemBlue(); racoon1(); displayInterpretation()"><img  class="button-fortune-child-1" src="img/gem-1.png"></button>
+  <div class="button-fortune-parent" id="gem-blue"><img  class="button-fortune-child-1" src="img/gem-2.png"></div>
+</div>
+<!--Racoon End-->
+<!--totem Start-->
+<div class="header-changing" id="header-changing2">
+  <img  class="header-changing-img" id="totem-1" src="img/totem-1-1.png">
+  <img  class="header-changing-img" id="totem-2" src="img/totem-1-2.png">
+  <button id="totem-k-1" class="button-fortune-parent" onclick="imageDisplay1(); imageDisplay2(); imageDisplay3(); imageDisplay4(); flip1(); flip2(); flip3(); flip4(); totemkey(); totem1(); displayInterpretation()"><img  class="button-fortune-child-1" src="img/totem-key-1.png"></button>
+  <div class="button-fortune-parent" id="totem-k-2"><img  class="button-fortune-child-1" src="img/totem-key-2.png"></div>
+</div>
+<!--totem End-->
+<!--Owl Start-->
+<div class="header-changing" id="header-changing3">
+  <img  class="header-changing-img-o" id="dragon-1" src="img/stone-bridge-1-1.png">
+  <img  class="header-changing-img-o" id="dragon-2" src="img/stone-bridge-1-2.png">
+  <button id="dragon-button" class="button-fortune-parent" onclick="imageDisplay1(); imageDisplay2(); imageDisplay3(); imageDisplay4();  flip1(); flip2(); flip3(); flip4(); dragonSun(); dragon1(); displayInterpretation()"><img  class="button-fortune-child-2" src="img/dragon-sun-transparent-1.png"></button>
+</div>
+<!--Owl End-->
+<!--snow Start-->
+<div class="header-changing" id="header-changing4">
+  <img  class="header-changing-img" id="snow-1" src="img/snow-1-1.png">
+  <img  class="header-changing-img" id="snow-2" src="img/snow-1-2.png">
+  <button id="snow-button" class="button-fortune-parent" onclick="imageDisplay1(); imageDisplay2(); imageDisplay3(); imageDisplay4();  flip1(); flip2(); flip3(); flip4(); snowkey(); snow1(); displayInterpretation()"><img  class="button-fortune-child-2" src="img/snow-key-jpg.jpg"></button>
+</div>
+<!--Owl End-->
+
+<!--owl-eagle Start-->
+<div class="header-changing" id="header-changing5">
+  <img  class="header-changing-img" id="owl-eagle-1" src="img/owl-eagle-1-1.png">
+  <img  class="header-changing-img" id="owl-eagle-2" src="img/owl-eagle-1-2.png">
+  <button id="oeKeyId" class="button-fortune-parent" onclick="imageDisplay1(); imageDisplay2(); imageDisplay3(); imageDisplay4();  flip1(); flip2(); flip3(); flip4(); owleagle1(); displayInterpretation(); "><img  class="button-fortune-child-2 oek" id="oeki" src="img/owl-eagle-key.png"></button>
+  <div class="button-fortune-parent" id="oeKeyId2"><img  class="button-fortune-child-2" src="img/owl-eagle-key-2.png"></div>
+
+</div>
+<!--owl-eagle End-->
+
+<!--Panda Start-->
+<div class="header-changing" id="panda-div">
+  <div class=""><img class="box-2 header-changing-img-p" id="panda1" src="img/yin-yung-1.png"></div>
+  <button class="button-fortune-parent" id="pandaBottun" onclick="imageDisplay1(); imageDisplay2(); imageDisplay3(); imageDisplay4();  flip1(); flip2(); flip3(); flip4();  displayInterpretation()"><img class="button-fortune-child-3 click-button" id="fc1" src="img/button-fortune-1.png"></button>
+  <div class="button-fortune-parent" id="pandaBottun2"><img  class="button-fortune-child-3" id="fc2" src="img/button-fortune-2.png"></div>
+
+</div>
+<script>
+    /*panda button*/
+    function panda2(){
+ document.getElementById('pandaBottun').style.display="none";
+    document.getElementById('pandaBottun2').style.display="block";
+  }
+  document.getElementById('pandaBottun').addEventListener('click', function() {
+setTimeout(panda2, 1200)
+})
+      $('#pandaBottun').click(function() {
+      $('.box-2').animate(
+        { deg: 1440 },
+        {
+          duration: 1200,
+          step: function(now) {
+            $(this).css({ transform: 'rotate(' + now + 'deg)' });
+          }
+        }
+      );
+    });
+    $('.click-button').click(function() {
+      $('.click-button').animate(
+        { deg: 90 },
+        {
+          duration: 1000,
+          step: function(now) {
+            $(this).css({ transform: 'rotate(' + now + 'deg)' });
+          }
+        }
+      );
+    });  
+
+</script>
+
+<!--Panda End-->
+</section>
+<!--
+<button id="pickImageButton" class="button-fortune-parent" onclick="imageDisplay(); flip(); gemBlue()"><img  class="button-fortune-child" src="img/gem-1.png"></button>
+<div class="button-fortune-parent" id="gem-blue"><img  class="button-fortune-child" src="img/gem-2.png"></div>-->
+<!--cards start-->
+<section class="card-flex-parent" id="section-card">
+<div class="scene scene--card card-flex-child">
+  <div class="card" id="card1">
+    <div class="card__face card__face--front"><img class="image" src="img/Logo-takvin-pastel-jpg.jpg" alt="" class="pinit-here">    </div>
+    <div class="card__face card__face--back image"><img class="image" id="randomImage1" src="" alt="Random Image"></div>
+  </div>
+</div>
+
+<div class="scene scene--card card-flex-child">
+  <div class="card" id="card2">
+    <div class="card__face card__face--front"><img class="image" src="img/Logo-takvin-pastel-jpg.jpg" alt="" class="pinit-here">    </div>
+    <div class="card__face card__face--back image"><img class="image" id="randomImage2" src="" alt="Random Image"></div>
+  </div>
+</div>
+
+<div class="scene scene--card card-flex-child">
+  <div class="card" id="card3">
+    <div class="card__face card__face--front"><img class="image" src="img/Logo-takvin-pastel-jpg.jpg" alt="" class="pinit-here">    </div>
+    <div class="card__face card__face--back image"><img class="image" id="randomImage3" src="" alt="Random Image"></div>
+  </div>
+</div>
+
+<div class="scene scene--card card-flex-child">
+  <div class="card" id="card4">
+    <div class="card__face card__face--front"><img class="image" src="img/Logo-takvin-pastel-jpg.jpg" alt="" class="pinit-here">    </div>
+    <div class="card__face card__face--back image"><img class="image" id="randomImage4" src="" alt="Random Image"></div>
+  </div>
+</div>
+</section>
+<section class="section-fortune-interpretation" id="section-fortune">
+  <button class="button-fortune-interpretation" id="button-fortune-interpretation4" onclick="interpretation1(); changePage();">
+    <!--<button class="button-fortune-interpretation" id="button-fortune-interpretation4" onclick="interpretation1(); changePage(); myGreeting()">-->
+
+    <img id="image-fortune-interpretation1" src="img/tbf1.png">    
+  </button>
+  <div class="button-fortune-interpretation" id="image-fortune-interpretation2"><img  id="image-fortune-interpretation3" src="img/tbf2.png"></div>
+</section>
+<section class="fortune-text-section" id="fortune-section">
+
+  <div class="div-container-fortune" id="div1">
+    <div id="fortuneText1" dir="rtl">
+
+<span class="font-fortune1" dir="rtl">شما در مسیر </span>
+<span class="font-fortune1"  dir="rtl">ورود دنیایی جدید </span>
+<span class="font-fortune1"  dir="rtl">با فناوریهایی بسیار </span>
+<span class="font-fortune1"  dir="rtl">متفاوت قرار دارید.</span>
+<span class="font-fortune1"  dir="rtl">فرصتهای موفقیت </span>
+<span class="font-fortune1"  dir="rtl">بسیاری در آن </span>
+<span class="font-fortune1"  dir="rtl">برای شما </span>
+<span class="font-fortune1"  dir="rtl">نهفته است.</span>
+<span class="font-fortune1"  dir="rtl">ولی برای دستیابی </span>
+<span class="font-fortune1"  dir="rtl">به این موقعیتها </span>
+<span class="font-fortune1"  dir="rtl">نیاز است کاری </span>
+<span class="font-fortune1"  dir="rtl">انجام دهید.</span>
+<span class="font-fortune1"  dir="rtl">شما می بایست </span>
+<span class="font-fortune1"  dir="rtl">انگلیسی را به گونه ای </span>
+<span class="font-fortune1"  dir="rtl">بیاموزید که </span>
+<span class="font-fortune1"  dir="rtl">فراموش نکنید.</span>
+<span class="font-fortune1"  dir="rtl">برای اینکار با شماره پایین </span>
+<span class="font-fortune1" dir="rtl">صفحه تماس بگیر</span>
+</div>
+<!--<div class="div-container-fortune">
+  <p class="" dir="ltr">0912 198 3476</p>
+  <p class="" dir="rtl">فال مجدد</p>
+  <button></button>
+</div>-->
+</div>
+
+<div class="div-container-fortune" id="div2">
+   <div id="fortuneText2" dir="rtl">
+
+<span class="font-fortune2"  dir="rtl">طالع شما </span>
+<span class="font-fortune2" dir="rtl">سرشار از </span>
+<span class="font-fortune2" dir="rtl">موفقیت در </span>
+<span class="font-fortune2" dir="rtl">دنیای دیجیتالی </span>
+<span class="font-fortune2" dir="rtl">پیش روست</span>
+<span class="font-fortune2" dir="rtl">اما برای </span>
+<span class="font-fortune2" dir="rtl">بهره گیری از </span>
+<span class="font-fortune2" dir="rtl">این فرصتها </span>
+<span class="font-fortune2" dir="rtl">می بایست انگلیسی </span>
+<span class="font-fortune2" dir="rtl">بیاموزید</span>
+<span class="font-fortune2" dir="rtl">نگران نباش </span>
+<span class="font-fortune2" dir="rtl">نیازی نیست </span>
+<span class="font-fortune2" dir="rtl">ساعتها به </span>
+<span class="font-fortune2" dir="rtl">حفظ واژه و ر</span>
+<span class="font-fortune2" dir="rtl">گرامربپردازی، </span>
+<span class="font-fortune2" dir="rtl">برای توضیح بیشتر </span>
+<span class="font-fortune2" dir="rtl">با شماره پایین </span>
+<span class="font-fortune2" dir="rtl">صفحه تماس بگیر</span>
+</div>
+</div>
+
+<div class="div-container-fortune" id="div3">
+    <div id="fortuneText3" dir="rtl">
+
+<span class="font-fortune3" dir="rtl">کارتها نشان دهنده </span>
+<span class="font-fortune3" dir="rtl">گذار از دوره ای </span>
+<span class="font-fortune3" dir="rtl">منفی به یک </span>
+<span class="font-fortune3" dir="rtl">دوره مثبت است.</span>
+<span class="font-fortune3" dir="rtl">برای اینکه </span>
+<span class="font-fortune3" dir="rtl">دوره مثبت </span>
+<span class="font-fortune3" dir="rtl">سریع تر در </span>
+<span class="font-fortune3" dir="rtl">زندگی تو </span>
+<span class="font-fortune3" dir="rtl">آغاز گردد </span>
+<span class="font-fortune3" dir="rtl">می بایست انگلیسی </span>
+<span class="font-fortune3" dir="rtl"> اگر اینجا  </span>
+<span class="font-fortune3" dir="rtl"> این کار را</span>
+<span class="font-fortune3" dir="rtl">انجام دهی </span>
+<span class="font-fortune3" dir="rtl">شانس موفقیت بیشتری </span>
+<span class="font-fortune3" dir="rtl">خواهی داشت</span>
+<span class="font-fortune3" dir="rtl">پس بی معطلی</span>
+<span class="font-fortune3" dir="rtl">با شماره پایین </span>
+<span class="font-fortune3" dir="rtl">صفحه تماس بگیر</span>
+
+</div>
+</div>
+
+</section>
+
+<section class="sec3js">
+  <a href="index1.html" class="link3js"><img class="link3jsimg" src="./img/horse1.png"></a><a href="index.html" class="link3js"><img class="link3jsimg" src="./img/lion3.png"></a>
+</section>
+<footer>
+  <div class="classFooter" id="idFooter" dir="rtl">
+  <div id="logoIdFooter" class="logoClassFooter"><img class="logoClassfooter" src="./img/Logo-takvin-pastel-jpg.jpg"></div>
+  <div id="textIdFooter" class="textClassFooter">
+    <p dir="rtl"><span class="pClassFooterT1" dir="rtl">آموزش حضوری و آنلاین، انگلیسی و فرانسه، از مبتدی تا پیشرفته</span></p>
+    <p dir="rtl"><span class="pClassFooterT2" dir="rtl">کلاسهای حضوری در دفتر آموزشگاه تکوین برگزار می گردد</span></p>
+    <p dir="ltr"><span class="pClassFooterTE1" dir="ltr"><img class="" id="phonelogo" src="./img/icon/cape1.png"><span class="iconTexttel">0912 198 3476-(021) 5693 1037</span></span></p>
+    <p dir="ltr"><span class="pClassFooterTE1" dir="ltr"><a href="https://www.instagram.com/takvin_language/"><img class="" id="instalogo" src="./img/icon/instagram-100.png"></a></p>
+
+    <p dir="ltr"><span class="pClassFooterTE1" dir="ltr"><img class="" id="emaillogo" src="./img/icon/mailbox-100.png"><span id="" class="iconText">ghavam@gmail.com</span></span></p>
+  
+    <p dir="rtl"><span class="pClassFooterTE1" dir="ltr"><span class="pClassFooterT3" dir="rtl">پرند، شمال فاز 1، بلوار طباطبایی، م سپاه، بلوار توحید، م توحید، خ کوهسار شرقی،پ 59 و 61</span><img class="iconLogo" src="./img/icon/home-100.png"></span></p>
+
+  </div>
+</div>
+</footer>
+
+
+
+      <script src="js/script.js"></script>
+      <script src="js/flipcard.js"></script>
+      <script src="js/type-machine.js"></script>
+    <!--  <script src="js/bgonload.js"></script>-->
+      
+  </body>
+</html>

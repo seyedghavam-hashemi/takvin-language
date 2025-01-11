@@ -1,0 +1,179 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    /*background-image: url('../img/bg10.png');*/
+    background-repeat: repeat;
+    background-size:contain;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+.header-changing{
+    width:100%;
+  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.head-section{
+    margin-bottom: 2vh;
+}
+.header-changing-img{
+    width: 600px;
+    height: 420px;
+}
+
+.header-changing-img-o{
+    width: 600px;
+    height: 420px;
+}
+
+.header-changing-img-p{
+    width: 400px;
+    height: 400px;
+}
+
+.button-fortune-parent{
+    display: grid;
+    justify-content: center;
+      width: 100%;
+      height: 50px;
+      background:transparent;
+      border:none;
+    }
+    
+    .button-fortune-child-1{
+      width: 50px;
+      height: 50px;
+    }
+       
+    .button-fortune-child-2{
+        width: 70px;
+        height: 70px;
+      }
+      .button-fortune-child-3{
+        width: 70px;
+        height: 70px;
+      }
+
+#dragon-2, #racoon-2, #gem-blue, #totem-2, #totem-k-2, #snow-2, #owl-eagle-2, #oeKeyId2, #pandaBottun2{
+      display: none;
+    }
+
+#snow-button{
+    margin-top: 5px;
+    
+}
+@media(max-width:568px) {
+
+    .header-changing{
+        width:100%;
+        height:140px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 25px;
+
+    }
+   
+ 
+    .header-changing-img{
+        width: 400px;
+        height: 280px;
+    
+    
+    }
+    .header-changing-img-o{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .header-changing-img-p{
+        width: 200px;
+        height: 200px;
+    }
+
+
+}
+
+/*
+.header-changing{
+    width:100%;
+    height:560px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-changing-img{
+    width: 600px;
+    height: 420px;
+}
+
+.header-changing-img-o{
+    width: 600px;
+    height: 300px;
+}
+
+.header-changing-img-p{
+    width: 500px;
+    height: 500px;
+}
+
+.button-fortune-parent{
+    display: grid;
+    justify-content: center;
+      width: 100%;
+      height: 100px;
+      background:transparent;
+      border:none;
+    }
+    
+    .button-fortune-child{
+      width: 100px;
+      height: 100px;
+    }
+    
+
+
+#dragon-2, #racoon-2, #gem-blue{
+      display: none;
+    }
+
+
+@media(max-width:568px) {
+
+    .header-changing{
+        width:100%;
+        height:380px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header-changing-img{
+        width: 350px;
+        height: 245px;
+    
+    
+    }
+    .header-changing-img-o{
+        width: 350px;
+        height: 175px;
+    }
+    
+    .header-changing-img-p{
+        width: 250px;
+        height: 250px;
+    }
+
+
+}*/

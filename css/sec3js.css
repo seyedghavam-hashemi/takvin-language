@@ -1,0 +1,18 @@
+.sec3js{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.link3js, .link3jsimg {
+    text-decoration: none;
+    width:250px;
+    height:175px;
+    margin:5px;
+}
+
+.link3jsimg{
+    box-shadow: 5px 5px 5px #ff0000, 5px 5px 5px #ff0000, 5px 5px 5px #ff0000;;
+}

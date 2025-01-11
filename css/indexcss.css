@@ -1,0 +1,454 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header-changing0{
+    width:100%;
+    height:100%;
+    /*background-color: red;*/
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*index0-1 Start*/
+#header-changing1{
+    width:100%;
+    height:100%;
+    background-image: url('../img/halloween-1.jpg');
+    background-size: cover;
+    background-attachment: none;
+
+}
+.icon-bgsize1{
+  width: 100%;
+  height:1000px;
+  display: grid;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+
+
+.icon-class1{
+  display: inline;
+
+}
+.textClassProceed1{
+  font-size: 2vh;
+  font-weight: bolder;
+  color:#fff;
+  background-color:#000;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  border-image: url('../img/Imgur.png');
+  border-image-slice: 0% 0% 60% 0% fill;
+
+
+}
+#textIdProceed1{}
+
+
+.icon-s-m1{
+    
+    width:200px;
+    height: 200px;
+}
+
+#starbtn1{
+  background-color:transparent;
+  border: none;
+}
+#moon-icon1{
+    animation: moonanimate 5s infinite;
+
+}
+#star-icon1{
+    animation: staranimate 5s infinite;
+
+}
+
+@keyframes moonanimate {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    10% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(20px);
+    }
+  }
+
+  @keyframes staranimate {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-20px);
+    }
+    75% {
+      transform: translateY(20px);
+    }
+  }
+
+
+
+
+
+
+.textClassEnter1{
+  font-size: 3vh;
+  color:#000;
+  background-color:#fff;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  font-weight: bolder;
+
+}
+
+
+#attendant1{
+  width:100%;
+  display: grid;
+  align-items:center;
+  justify-content: center;
+}
+
+#ghoolak1, #textIdEnter1{
+    display: none;
+}
+
+/*index0-1 End*/
+
+/*index0-2 Start*/
+#header-changing2{
+  width:100%;
+  height:100%;
+  background-image: url('../img/halloween-3.jpg');
+  background-size: cover;
+  background-attachment: none;
+
+}
+.icon-bgsize2{
+width: 100%;
+height:1000px;
+display: grid;
+justify-content: center;
+align-items:center;
+text-align: center;
+}
+
+
+.icon-class2{
+display: inline;
+
+}
+.textClassProceed2{
+  font-size: 2vh;
+  font-weight: bolder;
+  color:#fff;
+  background-color:#000;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  border-image: url('../img/Imgur.png');
+  border-image-slice: 0% 0% 60% 0% fill;
+}
+#textIdProceed2{}
+
+
+.icon-s-m2{
+  
+  width:200px;
+  height: 200px;
+}
+
+#starbtn2{
+background-color:transparent;
+border: none;
+}
+#moon-icon2{
+  animation: moonanimate 5s infinite;
+
+}
+#star-icon2{
+  animation: staranimate 5s infinite;
+
+}
+
+@keyframes moonanimate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes staranimate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+}
+
+.textClassEnter2{
+  font-size: 3vh;
+  color:#000;
+  background-color:#fff;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  font-weight: bolder;
+
+}
+
+#attendant2{
+  width:100%;
+  display: grid;
+  align-items:center;
+  justify-content: center;
+}
+
+
+#ghoolak2, #textIdEnter2{
+  display: none;
+}
+
+/*index0-2 End*/
+
+/*index0-3 Start*/
+#header-changing3{
+  width:100%;
+  height:100%;
+  background-image: url('../img/halloween-5.png');
+  background-size: cover;
+  background-attachment: none;
+
+}
+.icon-bgsize3{
+width: 100%;
+height:1000px;
+display: grid;
+justify-content: center;
+align-items:center;
+text-align: center;
+}
+
+
+.icon-class3{
+display: inline;
+
+}
+.textClassProceed3{
+  font-size: 2vh;
+  font-weight: bolder;
+  color:#fff;
+  background-color:#000;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  border-image: url('../img/Imgur.png');
+  border-image-slice: 0% 0% 60% 0% fill;
+
+}
+#textIdProceed3{}
+
+
+.icon-s-m3{
+  
+  width:200px;
+  height: 200px;
+}
+
+#starbtn3{
+background-color:transparent;
+border: none;
+}
+#moon-icon3{
+  animation: moonanimate 5s infinite;
+
+}
+#star-icon3{
+  animation: staranimate 5s infinite;
+
+}
+
+@keyframes moonanimate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes staranimate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+}
+
+.textClassEnter3{
+  font-size: 3vh;
+  color:#000;
+  background-color:#fff;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  font-weight: bolder;
+
+}
+
+#attendant3{
+  width:100%;
+  display: grid;
+  align-items:center;
+  justify-content: center;
+}
+
+
+#ghoolak3, #textIdEnter3{
+  display: none;
+}
+
+/*index0-3 End*/
+
+/*index0-4 Start*/
+#header-changing4{
+  width:100%;
+  height:100%;
+  background-image: url('../img/halloween-7.png');
+  background-size: cover;
+  background-attachment: none;
+
+}
+.icon-bgsize4{
+width: 100%;
+height:1000px;
+display: grid;
+justify-content: center;
+align-items:center;
+text-align: center;
+}
+
+
+.icon-class4{
+display: inline;
+
+}
+.textClassProceed4{
+  font-size: 2vh;
+  font-weight: bolder;
+  color:#fff;
+  background-color:#000;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  border-image: url('../img/Imgur.png');
+  border-image-slice: 0% 0% 60% 0% fill;
+
+}
+#textIdProceed4{}
+
+
+.icon-s-m4{
+  
+  width:200px;
+  height: 200px;
+}
+
+#starbtn4{
+background-color:transparent;
+border: none;
+}
+#moon-icon4{
+  animation: moonanimate 5s infinite;
+
+}
+#star-icon4{
+  animation: staranimate 5s infinite;
+
+}
+
+@keyframes moonanimate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes staranimate {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+}
+
+.textClassEnter4{
+  font-size: 3vh;
+  color:#000;
+  background-color:#fff;
+  margin:15px;
+  padding:5px;
+  border-radius:15px;
+  font-weight: bolder;
+
+}
+
+#attendant4{
+  width:100%;
+  display: grid;
+  align-items:center;
+  justify-content: center;
+}
+
+
+#ghoolak4, #textIdEnter4{
+  display: none;
+}
+
+/*index0-4 End*/
+
+
+@media(max-width:568px) {}
