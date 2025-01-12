@@ -15,7 +15,7 @@ function divrandom() {
 
 /*index0-1 start*/
 function changebg1() {
-    document.getElementById("header-changing1").style.backgroundImage = "url(./img/halloween-2.jpg)";
+    document.getElementById("header-changing1").style.backgroundImage = "url(./img/halloween-2.png)";
  }
  function hideshow1(){
     document.getElementById("moon-icon1").style.display="none";
