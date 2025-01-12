@@ -13,15 +13,13 @@
     <link rel="stylesheet" href="fonts/fonts.css" />    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+    <meta name="description" content="آموزش زبان">
+    <meta name="keywords" content="پرند,زبان,انگلیسی,گرامر,آموزش،اپلیکیشن_زبان،زبان_انگلیسی،مکالمه،یادگیری_زبان،زبان_فرانسه،دوزبانه،مکالمه،آموزش _از_راه_دور">
+    <meta name="author" content="Ghavam Hashemi Ph.D. Prowess University">
 
 
-     <meta name="description" content="آموزش زبان">
-  <meta name="keywords" content="پرند,زبان,انگلیسی,گرامر,آموزش،اپلیکیشن_زبان،زبان_انگلیسی،مکالمه،یادگیری_زبان،زبان_فرانسه،دوزبانه،مکالمه،آموزش _از_راه_دور">
-  <meta name="author" content="Ghavam Hashemi Ph.D. Prowess University">
   </head>
   <body onload="divrandom()">
-          <script src="js/script.js"></script>
-
      <!--From
 https://coolcssanimation.com/how-to-trigger-a-css-animation-on-scroll/
 
@@ -53,6 +51,23 @@ https://coolcssanimation.com/how-to-trigger-a-css-animation-on-scroll/
   <img  class="header-changing-img-o" id="dragon-2" src="img/stone-bridge-1-2.png">
   <button id="dragon-button" class="button-fortune-parent" onclick="imageDisplay1(); imageDisplay2(); imageDisplay3(); imageDisplay4();  flip1(); flip2(); flip3(); flip4(); dragonSun(); dragon1(); displayInterpretation()"><img  class="button-fortune-child-2" src="img/dragon-sun-transparent-1.png"></button>
 </div>
+<script>
+    /*owl eagle key Circulation*/
+    $('.oek').click(function() {
+    $('.oek').animate(
+      { deg: 90 },
+      {
+        duration: 1000,
+        step: function(now) {
+          $(this).css({ transform: 'rotate(' + now + 'deg)' });
+        }
+      }
+    );
+  });
+
+</script>
+
+
 <!--Owl End-->
 <!--snow Start-->
 <div class="header-changing" id="header-changing4">
@@ -258,9 +273,9 @@ setTimeout(panda2, 1200)
 </div>
 </footer>
 
-          <script src="js/script.js"></script>
 
 
+      <script src="js/script.js"></script>
       <script src="js/flipcard.js"></script>
       <script src="js/type-machine.js"></script>
     <!--  <script src="js/bgonload.js"></script>-->
